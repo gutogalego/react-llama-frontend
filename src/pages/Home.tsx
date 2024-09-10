@@ -1,11 +1,12 @@
 import React from 'react';
 import TextCompletion from '../components/TextCompletion';
+import TextSummarization from '../components/TextSummarization';
 
 const Home = () => {
   return (
     <div>
-      <h1>Language Model Service</h1>
       <TextCompletion />
+      <TextSummarization />
     </div>
   );
 };
